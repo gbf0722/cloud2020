@@ -15,6 +15,7 @@
         <module>cloud-provider-payment8003</module>
         <module>cloud-eureka-server7004</module>
         <module>cloud-provider-payment8004</module>
+        <module>cloud-consumer-feign-order80</module>
     </modules>
     <packaging>pom</packaging>
 

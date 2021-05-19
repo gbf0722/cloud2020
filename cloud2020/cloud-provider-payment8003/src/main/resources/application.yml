@@ -5,7 +5,7 @@ spring:
     name: cloud-provider-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.56.101/db2019?useUnicode=true&characterEncoding-utr-8&useSSL=false
+    url: jdbc:mysql://47.100.70.113/db2019?useUnicode=true&characterEncoding-utr-8&useSSL=false
     username: root
     password: root
 mybatis:

@@ -29,7 +29,7 @@ public class PaymentController {
 
 
     @PostMapping(value="/payment/create")
-    public CommonResult create(@RequestBody Payment payment) {
+    public CommonResult<Payment> create(@RequestBody Payment payment) {
         int result = paymentService.create(payment);
         log.info("-----插入结果是"+result);
         //System.out.println("======================================="+payment);
@@ -43,14 +43,14 @@ public class PaymentController {
     }
 
     @GetMapping(value="/payment/get/{id}")
-    public CommonResult getPaymentById(@PathVariable("id") Long id) {
+    public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id) {
         Payment payment = paymentService.getPaymentById(id);
         log.info("-----查询结果是"+payment);
 
         if (payment != null) {
-            return new CommonResult(200, "查询成功,端口号是"+serverport, payment);
+            return new CommonResult<Payment>(200, "查询成功,端口号是"+serverport, payment);
         } else {
-            return new CommonResult(444, "没有查询到数据，查询id为"+id+"端口号是"
+            return new CommonResult<Payment>(444, "没有查询到数据，查询id为"+id+"端口号是"
                     +serverport, null);
         }
     }
