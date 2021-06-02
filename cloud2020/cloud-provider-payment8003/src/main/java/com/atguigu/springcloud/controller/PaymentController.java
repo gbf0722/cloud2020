@@ -87,4 +87,11 @@ public class PaymentController {
     }
 
 
+    @GetMapping(value="/payment/lb/{id}")
+    public String loadblance(@PathVariable("id") Long id) {
+
+        return serverport;
+
+    }
+
 }
