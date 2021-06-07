@@ -1,0 +1,9 @@
+com\atguigu\guli\service\statistics\controller\DailyController.class
+com\atguigu\guli\service\statistics\mapper\DailyMapper.class
+com\atguigu\guli\service\statistics\client\UcenterClient.class
+com\atguigu\guli\service\statistics\config\RibbonConfig.class
+com\atguigu\guli\service\statistics\service\DailyService.class
+com\atguigu\guli\service\statistics\entity\Daily.class
+com\atguigu\guli\service\statistics\ServiceStatisticsApplication.class
+com\atguigu\guli\service\statistics\client\exception\UcenterClientExceptionHandler.class
+com\atguigu\guli\service\statistics\service\impl\DailyServiceImpl.class

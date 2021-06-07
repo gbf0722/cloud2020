@@ -1,0 +1,6 @@
+com\atguigu\guli\service\ucenter\controller\MemberController.class
+com\atguigu\guli\service\ucenter\entity\Member.class
+com\atguigu\guli\service\ucenter\service\MemberService.class
+com\atguigu\guli\service\ucenter\mapper\MemberMapper.class
+com\atguigu\guli\service\ucenter\service\impl\MemberServiceImpl.class
+com\atguigu\guli\service\ucenter\ServiceUcenterApplication.class
