@@ -1,5 +1,0 @@
-com\atguigu\guli\service\sms\service\SmsService.class
-com\atguigu\guli\service\sms\util\SmsProperties.class
-com\atguigu\guli\service\sms\ServiceSmsApplication.class
-com\atguigu\guli\service\sms\controller\ApiSmsController.class
-com\atguigu\guli\service\sms\service\impl\SmsServiceImpl.class

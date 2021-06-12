@@ -1,7 +1,0 @@
-com\atguigu\guli\service\vod\controller\api\ApiVideoController.class
-com\atguigu\guli\service\vod\ServiceVod02Application.class
-com\atguigu\guli\service\vod\util\AliyunVodSDKUtils.class
-com\atguigu\guli\service\vod\controller\VideoController.class
-com\atguigu\guli\service\vod\service\impl\VideoServiceImpl.class
-com\atguigu\guli\service\vod\util\VodProperties.class
-com\atguigu\guli\service\vod\service\VideoService.class

@@ -1,5 +1,0 @@
-com\atguigu\guli\service\oss\service\FileService.class
-com\atguigu\guli\service\oss\service\impl\FileServiceImpl.class
-com\atguigu\guli\service\oss\controller\FileController.class
-com\atguigu\guli\service\oss\ServiceOssApplication.class
-com\atguigu\guli\service\oss\util\OssProperties.class
